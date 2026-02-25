@@ -177,11 +177,17 @@ footer{height:80px;}
 </div>
 
 <div class="barra-fixa">
-<a href="https://s.shopee.com.br/5q2ySxErh6"
-onclick="ttq.track('InitiateCheckout')">
-Comprar Agora
-</a>
+  <a href="https://s.shopee.com.br/5q2ySxErh6"
+     onclick="ttq.track('InitiateCheckout', {
+       content_id: '22993201309',
+       content_type: 'product'
+     });"
+     style="background-color: #ee4d2d; color: white; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; cursor: pointer; text-align: center; width: 100%; max-width: 320px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    Comprar Agora
+  </a>
 </div>
+</div>
+
 
 <footer></footer>
 
@@ -232,6 +238,7 @@ setInterval(mostrarNotificacao,12000);
 
 </body>
 </html>
+
 
 
 
